@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+#Create a list that catch the inverse matrix
+#set the value of the matrix
+#get the value of the matrix
+#set the value of the inverse matrix
+#get the value of the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -20,7 +25,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#use the $getinv to check if the matrix has the cached inverse matrix, then load the inversed matrix. 
+#if the inverse is not cached, then compute the inverse
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
        #check if the matrix has the inverse   
